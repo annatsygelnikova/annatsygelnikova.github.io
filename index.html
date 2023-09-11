@@ -47,20 +47,53 @@
 		<li><a href=ftp://test:password@test.ru/hranenie/2.txt>21) Ссылку на файл на сервере FTP с авторизацией</a></li>
 	</ul>
 		<p id="Form_to_fill_out"> Форма для заполнения: </p>
-		<form action="/" method="POST"> <label for="fio"> Фамилия Имя Отчество: </label> <input type="text" id="fio" name="fio" required> <br/> <label for="Phone_number"> Номер телефона: </label> <input type="tel" id="Phone_number" name="Phone_number" required> <br/> <label for="E-mail">E-mail:</label> <input type="email" id="E-mail" name="E-mail" value="@example.com"> <br/> <label for="Birthday_date"> Дата рождения: </label> <input type="date" id="Birthday_date" name="Birthday_date" required> <br/>
-			<p>Пол: </p> <input type="radio" id="female" name="gender" value="female" required> <label for="female"> Женский</label><br> <input type="radio" id="male" name="gender" value="male" required> <label for="female"> Мужской</label><br> </select> <br/> <label for="Programming_language">Любимый язык программирования:</label> <select id="Programming_anguage" name="Programming_language" multiple required>
-<option value = "C++">C++</option>
-<option value = "C">C</option>
-<option value = "Clojure">Clojure</option>
-<option value = "Haskel">Haskel</option>
-<option value = "Java">Java</option>
-<option value = "JavaScript">JavaScript</option>
-<option value = "Pascal">Pascal</option>
-<option value = "PHP">PHP</option>
-<option value = "Prolog">Prolog</option>
-<option value = "Python">Python</option>
-<option value = "Scala">Scala</option>
-</select> <br/> <label for="Bio">Биография: </label> <textarea id="Bio" name="Bio" required></textarea> <br/> <label for="Agreement">С контрактом ознакомлен(а)</label> <input type="checkbox" id="Agreement" name="Agreement" required> <br/> <input type="submit" value="Сохранить"> </form>
-</body>
+		<form action="/" method="POST"> 
+			<label for="fio"> Фамилия Имя Отчество: </label> 
+			<input type="text" id="fio" name="fio" required> 
+			<br/> 
+			
+			<label for="Phone_number"> Номер телефона: </label> 
+			<input type="tel" id="Phone_number" name="Phone_number" required>
+			<br/> 
+			
+			<label for="E-mail">E-mail:</label> 
+			<input type="email" id="E-mail" name="E-mail" value="@example.com"> 
+			<br/>
+			
+			<label for="Birthday_date"> Дата рождения: </label> 
+			<input type="date" id="Birthday_date" name="Birthday_date" required> 
+			<br/>
+			
+			<p>Пол: </p> 
+			<input type="radio" id="female" name="gender" value="female" required> 
+			<label for="female"> Женский</label><br> 
+			<input type="radio" id="male" name="gender" value="male" required>
+			<label for="female"> Мужской</label><br> </select> <br/>
+			
+			<label for="Programming_language">Любимый язык программирования:</label> 
+			<select id="Programming_anguage" name="Programming_language" multiple required>
+			 <option value = "C++">C++</option>
+			 <option value = "C">C</option>
+			 <option value = "Clojure">Clojure</option>
+			 <option value = "Haskel">Haskel</option>
+			 <option value = "Java">Java</option>
+			 <option value = "JavaScript">JavaScript</option>
+			 <option value = "Pascal">Pascal</option>
+			 <option value = "PHP">PHP</option>
+			 <option value = "Prolog">Prolog</option>
+			 <option value = "Python">Python</option>
+			 <option value = "Scala">Scala</option>
+			 </select> <br/> 
+			
+			<label for="Bio">Биография: </label> 
+			<textarea id="Bio" name="Bio" required></textarea> 
+			<br/> 
+			
+			<label for="Agreement">С контрактом ознакомлен(а)</label> 
+			<input type="checkbox" id="Agreement" name="Agreement" required> 
+			<br/> 
+			<input type="submit" value="Сохранить"> 
+		</form>
+	</body>
 
 </html>
