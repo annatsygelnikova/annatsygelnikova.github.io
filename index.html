@@ -1,73 +1,46 @@
 <head>
-<title>Сайт</title>
+	<title>Сайт</title>
 </head>
+
 <body>
-<ul>
-<li><a href="http://kubsu.ru/">1) Абсолютная гиперссылка на главную страницу КубГУ</a></li>
-<li><a href="https://www.kubsu.ru/">2) Абсолютная гиперссылка на главную страницу КубГУ в протоколе https</a></li>
-3) Ссылка-изображение
-<li><a href="https://www.ygfamily.com/"><img src = "/yg.jpg"/></a></li>
-<li><a href = "./current.html">4) Сокращенная ссылка на внутреннюю страницу</li>
+	<ul>
+		<li><a href="http://kubsu.ru/">1) Абсолютная гиперссылка на главную страницу КубГУ</a></li>
+		<li><a href="https://www.kubsu.ru/">2) Абсолютная гиперссылка на главную страницу КубГУ в протоколе https</a></li> 3) Ссылка-изображение
+		<li><a href="https://www.ygfamily.com/"><img src = "/yg.jpg"/></a></li>
+		<li><a href="./current.html">4) Сокращенная ссылка на внутреннюю страницу</li>
 <li><a href = "/index.html">5) Сокращенная ссылка на главную страницу</li>
 <li><a href = "#part">6) Ссылка на фрагмент текущей страницы</a></li>
-<li><a href = "?tadeul=2&blabla=nan&nunel=tto">7) Ссылка с тремя параметрами URL</a></li>
-<li><a href = "index.html?id = fragment">8) Параметр id в URL</a></li>
-<li><a href = "./current.html">9) Cсылка на страницу в данном каталоге</a></li>
-<li><a href="./about/level1.html">10) Cсылка на страницу в каталоге about</a></li>
-<li><a href="../index.html">11) Cсылка на страницу в каталоге выше текущего</a></li>
-<li><p>13) Абзац, указывающий на <a href="index.html#fragment"> контекстную ссылку</a></p></li>
-<li><a href="https://genius.com/Itzy-wannabe-lyrics">14) Ссылка на фрагмент стороннего сайта</a></li>
-15) Ссылка из прямоугольной и круглой областей картинки
-</li>
-</ul>
-<img src = "./kitten1.jpg" alt = "pic" usemap = "#кликнуть">
-<map name = "кликнуть">
+		<li><a href="?tadeul=2&blabla=nan&nunel=tto">7) Ссылка с тремя параметрами URL</a></li>
+		<li><a href="index.html?id = fragment">8) Параметр id в URL</a></li>
+		<li><a href="./current.html">9) Cсылка на страницу в данном каталоге</a></li>
+		<li><a href="./about/level1.html">10) Cсылка на страницу в каталоге about</a></li>
+		<li><a href="../index.html">11) Cсылка на страницу в каталоге выше текущего</a></li>
+		<li>
+			<p>13) Абзац, указывающий на <a href="index.html#fragment"> контекстную ссылку</a></p>
+		</li>
+		<li><a href="https://genius.com/Itzy-wannabe-lyrics">14) Ссылка на фрагмент стороннего сайта</a></li> 15) Ссылка из прямоугольной и круглой областей картинки </li>
+	</ul> <img src="./kitten1.jpg" alt="pic" usemap="#кликнуть"> <map name="кликнуть">
 <area shape = "rectangle" coords = "44, 516, 248, 623" href = "https://www.youtube.com/watch?v=0bIRwBpBcZQ" alt = "прямоугольник">
 <area shape = "circle" coords = "597, 246, 35" href = "https://www.youtube.com/watch?v=6ZUIwj3FgUY" alt = "круг">
 </map>
-<li><a href=" ">16) Ссылка с пустым href</a></li>
-<li><a>17) Ссылка без href</a></li>
-<li><a href = "http://site.ru" rel = "nofollow">18) Ссылка, по которой запрещен переход поисковикам</a></li>
-<li><noindex><a href="http://site.com/">19) Ссылка, по которой запрещена индексация</a></noindex></li>
-<li>20) Нумерованный список ссылок с подписями title
-<ol>
-<li><a href="https://genius.com/Stray-kids-s-class-lyrics" title = "Stray Kids">Title #1</a></li>
-<li><a href="https://genius.com/Blackpink-pink-venom-lyrics" title = "BlackPink">Title #2</a></li>
-<li><a href="https://genius.com/Gfriend-mago-lyrics" title = "GFRIEND">Title #3</a></li>
-</ol>
-</li>
-<li><a href = ftp://test:password@test.ru/hranenie/2.txt>21) Ссылку на файл на сервере FTP с авторизацией</a></li>
-
-</ul>
-<p id = "Form to fill out"> Форма для заполнения: </p>
-  
-<form action = "/" method ="POST">
-<label for = "fio"> Фамилия Имя Отчество: </label>
-<input type = "text" id = "fio" name = "fio" required>
-<br/>
-
-<label for = "Phone number"> Номер телефона: </label>
-<input type= "tel" id = "Phone number" name = "Phone number" required>
-<br/>
-
-<label for = "E-mail">E-mail:</label>
-<input type = "email" id="E-mail" name="E-mail" value = "@example.com">
-<br/>
-
-<label for = "Birthday date"> Дата рождения: </label>
-<input type = "date" id = "Birthday date" name = "Birthday date" required>
-<br/>
-
-<p>Пол: </p>
-<input type = "radio" id = "female" name = "gender" value = "female" required>
-<label for = "female"> Женский</label><br>
-<input type = "radio" id = "male" name = "gender" value = "male" required>
-<label for = "female"> Мужской</label><br>
-</select>
-<br/>
-
-<label for="Programming-language">Любимый язык программирования:</label>
-<select id="Programming-language" name="Programming-language" multiple required>
+	<li><a href=" ">16) Ссылка с пустым href</a></li>
+	<li><a>17) Ссылка без href</a></li>
+	<li><a href="http://site.ru" rel="nofollow">18) Ссылка, по которой запрещен переход поисковикам</a></li>
+	<li>
+		<noindex><a href="http://site.com/">19) Ссылка, по которой запрещена индексация</a></noindex>
+	</li>
+	<li>20) Нумерованный список ссылок с подписями title
+		<ol>
+			<li><a href="https://genius.com/Stray-kids-s-class-lyrics" title="Stray Kids">Title #1</a></li>
+			<li><a href="https://genius.com/Blackpink-pink-venom-lyrics" title="BlackPink">Title #2</a></li>
+			<li><a href="https://genius.com/Gfriend-mago-lyrics" title="GFRIEND">Title #3</a></li>
+		</ol>
+	</li>
+	<li><a href=f tp://test:password@test.ru/hranenie/2.txt>21) Ссылку на файл на сервере FTP с авторизацией</a></li>
+	</ul>
+	<p id="Form to fill out"> Форма для заполнения: </p>
+	<form action="/" method="POST"> <label for="fio"> Фамилия Имя Отчество: </label> <input type="text" id="fio" name="fio" required> <br/> <label for="Phone number"> Номер телефона: </label> <input type="tel" id="Phone number" name="Phone number" required> <br/> <label for="E-mail">E-mail:</label> <input type="email" id="E-mail" name="E-mail" value="@example.com"> <br/> <label for="Birthday date"> Дата рождения: </label> <input type="date" id="Birthday date" name="Birthday date" required> <br/>
+		<p>Пол: </p> <input type="radio" id="female" name="gender" value="female" required> <label for="female"> Женский</label><br> <input type="radio" id="male" name="gender" value="male" required> <label for="female"> Мужской</label><br> </select> <br/> <label for="Programming-language">Любимый язык программирования:</label> <select id="Programming-language" name="Programming-language" multiple required>
 <option value = "C++">C++</option>
 <option value = "C">C</option>
 <option value = "Clojure">Clojure</option>
@@ -79,19 +52,7 @@
 <option value = "Prolog">Prolog</option>
 <option value = "Python">Python</option>
 <option value = "Scala">Scala</option>
-</select>
-<br/>
-
-<label for = "Bio">Биография: </label>
-<textarea id = "Bio" name = "Bio" required></textarea>
-<br/>
-
-<label for = "Agreement">С контрактом ознакомлен(а)</label>
-<input type = "checkbox" id = "Agreement" name = "Agreement" required>
-<br/>
-
-<input type = "submit" value = "Сохранить">
-</form>
-
+</select> <br/> <label for="Bio">Биография: </label> <textarea id="Bio" name="Bio" required></textarea> <br/> <label for="Agreement">С контрактом ознакомлен(а)</label> <input type="checkbox" id="Agreement" name="Agreement" required> <br/> <input type="submit" value="Сохранить"> </form>
 </body>
+
 </html>
