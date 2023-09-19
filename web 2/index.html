@@ -10,14 +10,13 @@
   <header>
     <img style="float:left; margin:10px; width:300px; height:150px;" src="barbie.png" alt="Отображение">
     <h1>Сайт</h1>
-    <a href="#list" class="nav">Список гиперсылок</a>
-    <a href="#table" class="nav">Таблица</a>
-    <a href="#form" class="Form">Форма</a>
+    <a href="#list_of_hyperlinks" class="main_menu">Список гиперсылок</a>
+    <a href="#table" class="Table">Таблица</a>
+    <a href="#Form_to_fill_out" class="Form">Форма</a>
 
   </header>
   <nav class="main_menu">
     <h2 id="list_of_hyperlinks">Список гиперсcылок</h2>
-  </nav>
 
   <ul>
     <li><a href="http://kubsu.ru/">1) Абсолютная гиперссылка на главную страницу КубГУ</a></li>
@@ -59,11 +58,12 @@
     </li>
     <li><a href=ftp://test:password@test.ru/hranenie/2.txt>21) Ссылку на файл на сервере FTP с авторизацией</a></li>
   </ul>
+  </nav>
 
   <p id="element">Фрагмент текущей страницы</p>
 
   <br>
-
+ <nav class = "Table">
   <h2 id="table">Таблица</h2>
   <table>
     <caption>Магазин одежды</caption>
@@ -119,6 +119,8 @@
     	</tr>
     </tbody>
   </table>
+</nav>
+	
   <nav class="Form">
     <p id="Form_to_fill_out"> Форма для заполнения: </p>
     <form action="/" method="POST">
@@ -172,6 +174,7 @@
       <input type="submit" value="Сохранить">
     </form>
   </nav>
+	
   <footer>
     <p>(c) Анна Цыгельникова 2023. Сайт.</p>
   </footer>
