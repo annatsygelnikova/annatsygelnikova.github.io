@@ -3,6 +3,60 @@ header {
 color:rgb(0, 0, 0);
 background-color:#ee3e99; padding:12px; height: 150px;
 }
+div {
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.list a {
+    text-decoration: none;
+    font-family: serif;
+    color: #ffd1dc;
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: rgb(255, 240, 245);
+    border-bottom: 1rem solid #FFF8DC;
+  }
+
+body {
+    background-color: rgb(233, 233, 207);
+    margin: 0;
+}
+
+a {
+    color:#FF24BA;
+    text-decoration: none;
+    outline: none;
+    border-bottom: 1 px solid;
+}
+
+a:link {
+    color:#FFE9FD;
+}
+
+a:visited {
+    color:#000000;
+}
+
+a:hover {
+    color:#FF6AD0;
+}
+
+a:active {
+    color:#FF6ADA;
+}
+
+h1, h2 {
+    font-family:serif, 'Ariel', Times, serif;
+    font-size:x-large;
+}
+
+.list {
+    list-style: none;
+    float:right;
+}
+
 table {
 table-layout: fixed;
 border: 1px solid black;
