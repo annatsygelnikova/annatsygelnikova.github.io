@@ -25,7 +25,7 @@ body {
 }
 
 a {
-    color:#62654f;
+    color:#FF24BA;
     text-decoration: none;
     outline: none;
     border-bottom: 1 px solid;
@@ -40,11 +40,11 @@ a:visited {
 }
 
 a:hover {
-    color:#878a75;
+    color:#FF6AD0;
 }
 
 a:active {
-    color:#393b2c;
+    color:#FF6ADA;
 }
 
 h1, h2 {
