@@ -32,11 +32,11 @@ a {
 }
 
 a:link {
-    color:#333525;
+    color:#FFE9FD;
 }
 
 a:visited {
-    color:#444637;
+    color:#000000;
 }
 
 a:hover {
@@ -48,7 +48,7 @@ a:active {
 }
 
 h1, h2 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:serif, 'Ariel', Times, serif;
     font-size:x-large;
 }
 
