@@ -3,11 +3,7 @@ header {
 color:rgb(0, 0, 0);
 background-color:#ee3e99; padding:12px; height: 150px;
 }
-div {
-    position: absolute;
-    top: 15px;
-    right: 0;
-}
+
 
 .list a {
     text-decoration: none;
