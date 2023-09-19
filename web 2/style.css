@@ -12,15 +12,15 @@ div {
 .list a {
     text-decoration: none;
     font-family: serif;
-    color: #ffd1dc;
+    color: #000000;
     display: inline-block;
     padding: 5px 20px;
     background-color: rgb(255, 240, 245);
-    border-bottom: 1rem solid #FFF8DC;
+    border-bottom: 1rem solid #000000;
   }
 
 body {
-    background-color: rgb(233, 233, 207);
+    background-color: rgb(255, 240, 245);
     margin: 0;
 }
 
@@ -32,19 +32,19 @@ a {
 }
 
 a:link {
-    color:#FFE9FD;
-}
-
-a:visited {
     color:#000000;
 }
 
+a:visited {
+    color:#ff05d1;
+}
+
 a:hover {
-    color:#FF6AD0;
+    color:#ff05d1;
 }
 
 a:active {
-    color:#FF6ADA;
+    color:#ff05d1;
 }
 
 h1, h2 {
@@ -60,7 +60,7 @@ h1, h2 {
 table {
 table-layout: fixed;
 border: 1px solid black;
-background-color: #f3029a;
+background-color: #f099d0;
 
 }
 th {
@@ -70,11 +70,11 @@ td {
 border: 1px solid black;
 }
 tbody tr:nth-child(odd) {
-background-color: #9418e7;
+background-color: #ea6ebc;
 }
 
 tbody tr:nth-child(even) {
-background-color: #f200ff;
+background-color: #e8bbd8;
 }
 caption {
 padding: 20px;
