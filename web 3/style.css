@@ -93,3 +93,48 @@ padding: 5px;
 background-color: #f6089a;
 color: #000000;
 }
+nav {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+}
+.Table {
+	padding: 0 15px;
+	order: 1;
+}
+
+.main_menu {
+	order: 2;
+}
+
+.Form {
+	margin: 15px;
+	order: 3;
+}
+nav {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 800px) {
+	.content {
+		width: 100%;
+	}
+	
+	.table {
+		order: 2;
+	}
+
+	.list {
+		order: 1;
+	}
+	
+	nav {
+		margin-top: 0;
+		flex-direction: row;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+}
