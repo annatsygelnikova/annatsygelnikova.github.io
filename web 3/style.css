@@ -20,11 +20,18 @@ body {
     margin: 0;
 }
 
+.logo {
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+}
+
 a {
     color:#FF24BA;
     text-decoration: none;
     outline: none;
     border-bottom: 1 px solid;
+    text-align: center;
 }
 
 a:link {
@@ -43,6 +50,14 @@ a:active {
     color:#504f4f;
 }
 
+nav a {
+	color: #FFFFFF;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
 h1, h2 {
     font-family:serif, 'Ariel', Times, serif;
     font-size:x-large;
@@ -51,14 +66,6 @@ h1, h2 {
 .list {
     list-style: none;
     float:right;
-}
-.Table {
-	padding: 0 15px;
-	order: 1;
-}
-.Form {
-	margin: 15px;
-	order: 3;
 }
 
 table {
