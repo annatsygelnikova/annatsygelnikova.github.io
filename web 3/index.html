@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Сайт</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header>
+    <img style="float:left; margin:10px; width:300px; height:150px;" src="barbie.png" alt="Отображение">
+    <h1>Сайт</h1>
+<nav>
+    <a href="#list_of_hyperlinks" class="main_menu">Список гиперссылок</a>
+    <a href="#table" class="Table">Таблица</a>
+    <a href="#Form_to_fill_out" class="Form">Форма</a>
+</nav>
+
+  </header>
+  <main>
+  <div class='content'>
+    <div class = "list">
+    <h2 id="list_of_hyperlinks">Список гиперсcылок</h2>
+
+  <ul>
+    <li><a href="http://kubsu.ru/">1) Абсолютная гиперссылка на главную страницу КубГУ</a></li>
+    <li><a href="https://www.kubsu.ru/">2) Абсолютная гиперссылка на главную страницу КубГУ в протоколе https</a></li>
+    <li>3) Ссылка-изображение</li>
+    <li>
+      <a href="https://www.ygfamily.com/"><img src="yg.jpg" alt="ygfamily insignia"></a>
+    </li>
+    <li><a href="./current.html">4) Сокращенная ссылка на внутреннюю страницу</a></li>
+    <li><a href="index.html">5) Сокращенная ссылка на главную страницу</a></li>
+    <li><a href="#part">6) Ссылка на фрагмент текущей страницы</a></li>
+    <li><a href="?tadeul=2&blabla=nan&nunel=tto">7) Ссылка с тремя параметрами URL</a></li>
+    <li><a href="https://www.sample.com/page?id=2511">8) Параметр id в URL</a></li>
+    <li><a href="./current.html">9) Cсылка на страницу в данном каталоге</a></li>
+    <li><a href="./about/level1.html">10) Cсылка на страницу в каталоге about</a></li>
+    <li><a href="../index.html">11) Cсылка на страницу в каталоге выше текущего</a></li>
+    <li><a href="./level2/level3/ive.html">12) Относительная ссылка на страницу на два уровня выше</a></li>
+    <li>13) Абзац, указывающий на <a href="index.html#fragment"> контекстную ссылку</a>
+    </li>
+    <li><a href="https://genius.com/Itzy-wannabe-lyrics">14) Ссылка на фрагмент стороннего сайта</a></li>
+    <li>15) Ссылка из прямоугольной и круглой областей картинки</li>
+  </ul>
+  <img src="./kitten1.jpg" alt="pic" usemap="#кликнуть">
+  <map name="кликнуть">
+    <area shape="rect" coords="44,516,248,623" href="https://www.youtube.com/watch?v=0bIRwBpBcZQ" alt="область_1">
+    <area shape="circle" coords="597,246,36" href="https://www.youtube.com/watch?v=6ZUIwj3FgUY" alt="область_2">
+  </map>
+  <ul>
+    <li><a href=" ">16) Ссылка с пустым href</a></li>
+    <li><a>17) Ссылка без href</a></li>
+    <li><a href="http://site.ru" rel="nofollow">18) Ссылка, по которой запрещен переход поисковикам</a></li>
+    <li><a href="./Page.html">19) Запрещенная для индексации ссылка</a></li>
+    <li>20) Нумерованный список ссылок с подписями title
+      <ol>
+        <li><a href="https://genius.com/Stray-kids-s-class-lyrics" title="Stray Kids">Title #1</a></li>
+        <li><a href="https://genius.com/Blackpink-pink-venom-lyrics" title="BlackPink">Title #2</a></li>
+        <li><a href="https://genius.com/Gfriend-mago-lyrics" title="GFRIEND">Title #3</a></li>
+      </ol>
+    </li>
+    <li><a href=ftp://test:password@test.ru/hranenie/2.txt>21) Ссылку на файл на сервере FTP с авторизацией</a></li>
+  </ul>
+  </div>
+
+  <p id="element">Фрагмент текущей страницы</p>
+
+  <br>
+ <div class = "Table">
+  <h2 id="table">Таблица</h2>
+  <table>
+    <caption>Магазин одежды</caption>
+	<thead>
+		<tr>
+		<td>№ п/п</td>
+		<td>Наименование товара</td>
+		<td>Количество</td>
+		<td>Стоимость, руб.</td>
+		<td>Магазин, где товар в наличии</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+		<td>1.</td>
+		<td>Джинсы</td>
+		<td>15</td>
+		<td>3000</td>
+		<td>BeFree</td>
+		</tr>
+		<tr>
+		<td>2.</td>
+		<td>Футболка</td>
+		<td>50</td>
+		<td>500</td>
+		<td>ZARA</td>
+		</tr>
+		<tr>
+		<td>3.</td>
+		<td>Джинсовка</td>
+		<td>10</td>
+		<td>5500</td>
+		<td>Stradivarius</td>
+		</tr>
+		<tr>
+		<td>4.</td>
+		<td>Платье черное</td>
+		<td>13</td>
+		<td>6300</td>
+		<td>Stradivarius</td>
+		</tr>
+		<tr>
+		<td>5.</td>
+		<td>Прямая юбка</td>
+		<td>34</td>
+		<td>2500</td>
+		<td>Reserved</td>
+		</tr>
+		<tr>
+		<td colspan="3">Итого:</td>
+		<td>17800</td>
+		<td></td>
+    	</tr>
+    </tbody>
+  </table>
+</div>
+	
+  <div class="Form">
+    <p id="Form_to_fill_out"> Форма для заполнения: </p>
+    <form action="/" method="POST">
+      <label for="fio"> Фамилия Имя Отчество: </label>
+      <input type="text" id="fio" name="fio" required>
+      <br>
+
+      <label for="Phone_number"> Номер телефона: </label>
+      <input type="tel" id="Phone_number" name="Phone_number" required>
+      <br>
+
+      <label for="E-mail">E-mail:</label>
+      <input type="email" id="E-mail" name="E-mail" placeholder="Введите почту">
+      <br>
+
+      <label for="Birthday_date"> Дата рождения: </label>
+      <input type="date" id="Birthday_date" name="Birthday_date" required>
+      <br>
+
+      <p>Пол: </p>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female"> Женский</label>
+      <br>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male"> Мужской</label>
+      <br>
+
+      <label for="Programming_language">Любимый язык программирования:</label>
+      <select id="Programming_language" name="Programming_language" multiple required>
+        <option value="C++">C++</option>
+        <option value="C">C</option>
+        <option value="Clojure">Clojure</option>
+        <option value="Haskel">Haskel</option>
+        <option value="Java">Java</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Pascal">Pascal</option>
+        <option value="PHP">PHP</option>
+        <option value="Prolog">Prolog</option>
+        <option value="Python">Python</option>
+        <option value="Scala">Scala</option>
+      </select>
+      <br>
+
+      <label for="Bio">Биография: </label>
+      <textarea id="Bio" name="Bio" required></textarea>
+      <br>
+
+      <label for="Agreement">С контрактом ознакомлен(а)</label>
+      <input type="checkbox" id="Agreement" name="Agreement" required>
+      <br>
+      <input type="submit" value="Сохранить">
+    </form>
+  </div>
+  </div>
+  </main>
+	
+  <footer>
+    <p>(c) Анна Цыгельникова 2023. Сайт.</p>
+  </footer>
+</body>
+
+</html>
