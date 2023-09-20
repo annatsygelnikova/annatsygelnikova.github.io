@@ -78,11 +78,12 @@ color: #000000;
 text-align: center;
 letter-spacing: 1px;
 }
-.katalog {
-display: flex;
-justify-content: space-between;
-align-items: center;
+
+.content {
+max-width: 960 px;
+margin: 0 auto;
 }
+
 footer {
 display:flex;
 justify-content: center;
