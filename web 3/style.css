@@ -1,167 +1,123 @@
-@media only screen and (max-width: 767px) {
-  /* Rules for mobile devices */
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  .list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    width: 100%;
-    order: 2;
-  }
-  .Table {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    order: 1;
-  }
-  .Form{
-    margin: 15px;
-    order: 3;
-  }
-  
-  th,
-  td {
-    width: 100%;
-  }
-  tbody tr:nth-child(odd) {
-    background-color: #f099d0;
-  }
-  tbody tr:nth-child(even) {
-    background-color: #e8bbd8;
-  }
-  /*.content {
-    width: 100%;
-  }*/
-  nav {
-    margin-top: 0;
-    flex-direction: column;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  
-  footer {
-    display: flex;
-    justify-content: center;
-  }
-}
 
-/* Common rules for all devices */
-header,
-footer,
-nav,
-article {
-  display: block;
+@media screen and (max-width: 768px) {
+    header, nav, .content, footer {
+        width: 100%;
+    }
+  
+    nav {
+        flex-direction: column;
+    }
+  
+    .Table {
+        order: -1;
+    }
+  
+    .list {
+        width: 100%;
+        text-align: center;
+    }
 }
-
+  
+header, footer, nav, article {
+    display: block;
+}
+  
 header {
-  color: rgb(0, 0, 0);
-  background-color: #ee3e99;
-  padding: 12px;
-  height: 150px;
+    color: rgb(0, 0, 0);
+    background-color: #ee3e99;
+    padding: 12px;
+    height: 150px;
 }
-
+  
 .list a {
-  text-decoration: none;
-  font-family: serif;
-  color: #000000;
-  display: block;
-  padding: 5px 20px;
-  background-color: rgb(240, 20, 134);
-  border-bottom: 1rem solid #e483b5;
+    text-decoration: none;
+    font-family: serif;
+    color: #000000;
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: rgb(240, 20, 134);
+    border-bottom: 1rem solid #e483b5;
 }
-
+  
 body {
-  background-color: rgb(255, 240, 245);
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 960px;
+    background-color: rgb(255, 240, 245);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
 }
-
+  
 a {
-  color: #ff24ba;
-  text-decoration: none;
-  outline: none;
-  border-bottom: 1px solid;
+    color: #FF24BA;
+    text-decoration: none;
+    outline: none;
+    border-bottom: 1px solid;
 }
-
+  
 a:link {
-  color: #000000;
+    color: #000000;
 }
-
+  
 a:visited {
-  color: #504f4f;
+    color: #504f4f;
 }
-
+  
 a:hover {
-  color: #ff05d1;
+    color: #ff05d1;
 }
-
+  
 a:active {
-  color: #504f4f;
+    color: #504f4f;
 }
-
+  
 h1,
 h2 {
-  font-family: serif, 'Ariel', Times, serif;
-  font-size: x-large;
+    font-family: serif, 'Ariel', Times, serif;
+    font-size: x-large;
 }
-
+  
 .list {
-  list-style: none;
-  float: right;
+    list-style: none;
+    float: right;
 }
-
+  
 table {
-  table-layout: fixed;
-  border: 1px solid black;
-  background-color: #f099d0;
-  order: 1;
+    table-layout: fixed;
+    border: 1px solid black;
+    background-color: #f099d0;
 }
-
+  
 th {
-  border: 1px solid black;
+    border: 1px solid black;
 }
-
+  
 td {
-  border: 1px solid black;
+    border: 1px solid black;
 }
-
+  
 tbody tr:nth-child(odd) {
-  background-color: #ea6ebc;
+    background-color: #ea6ebc;
 }
-
+  
 tbody tr:nth-child(even) {
-  background-color: #e8bbd8;
+    background-color: #e8bbd8;
 }
-
+  
 caption {
-  padding: 20px;
-  color: #000000;
-  text-align: center;
-  letter-spacing: 1px;
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 1px;
 }
-
+  
 .content {
-  max-width: 960px;
-  margin: 0 auto;
+    max-width: 960px;
+    margin: 0 auto;
 }
-
+  
 footer {
-  display: flex;
-  justify-content: center;
-  padding: 5px;
-  background-color: #f6089a;
-  color: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #f6089a;
+    color: #000000;
 }
