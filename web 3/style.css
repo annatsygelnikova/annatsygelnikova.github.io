@@ -41,13 +41,13 @@
   .content {
     width: 100%;
   }
-	nav {
-		margin-top: 0;
-		flex-direction: column;
-		position: static;
+  nav {
+    margin-top: 0;
+    flex-direction: column;
+    position: static;
 		/*top: 50px;
 		right: 50px;*/
-	}
+  }
   
   footer {
     display: flex;
