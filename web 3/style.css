@@ -8,18 +8,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
   .list {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    width: 100%;
     order: 2;
   }
   .Table {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     order: 1;
   }
   .Form{
@@ -37,9 +40,9 @@
   tbody tr:nth-child(even) {
     background-color: #e8bbd8;
   }
-  .content {
+  /*.content {
     width: 100%;
-  }
+  }*/
   nav {
     margin-top: 0;
     flex-direction: column;
