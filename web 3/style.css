@@ -43,10 +43,10 @@
   }
 	nav {
 		margin-top: 0;
-		flex-direction: row;
-		position: absolute;
-		top: 50px;
-		right: 50px;
+		flex-direction: column;
+		position: static;
+		/*top: 50px;
+		right: 50px;*/
 	}
   
   footer {
