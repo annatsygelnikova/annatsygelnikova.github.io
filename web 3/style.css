@@ -5,6 +5,7 @@
     }
   
     nav {
+        margin-top: 0;
         flex-direction: column;
     }
   
