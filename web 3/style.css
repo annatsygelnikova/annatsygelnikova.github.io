@@ -235,14 +235,6 @@ footer {
         margin: 0 auto;
     }
 
-        footer {
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-        background-color: #f6089a;
-        color: #000000;
-    }
-
 
     ul *{
         font-size: 16px;
@@ -291,5 +283,10 @@ footer {
 
     #Programming_language option{
         font-size: 14px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
     }
 }
