@@ -143,6 +143,7 @@ ul {
 
 .Table {
     margin: 0 20px;
+    order: -1;
 }
 
 table * {
