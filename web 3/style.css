@@ -84,7 +84,14 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
     background-color: #e8bbd8;
 }
+.Table{
+    position: absolute;
+    top: 220px;
+}
 
+.content{
+    margin-top: 260px;
+}
 
 .list a {
     text-decoration: none;
@@ -143,7 +150,6 @@ ul {
 
 .Table {
     margin: 0 20px;
-    order: -1;
 }
 
 table * {
@@ -181,6 +187,15 @@ footer {
     nav,
     article {
         display: block;
+    }
+
+    .Table{
+        position: static;
+        top: none;
+    }
+    
+    .content{
+        margin-top: 0;
     }
 
     header {
@@ -252,7 +267,6 @@ footer {
 
     .Table {
         margin: 0;
-        order: 0;
     }
 
     table * {
