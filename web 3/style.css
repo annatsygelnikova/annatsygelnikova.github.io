@@ -252,6 +252,7 @@ footer {
 
     .Table {
         margin: 0;
+        order: 0;
     }
 
     table * {
