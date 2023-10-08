@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var stoimost = document.getElementById("sprice");
+    var sprice = document.getElementById("sprice");
     stoimost.addEventListener("click", calculator);
   });
 
