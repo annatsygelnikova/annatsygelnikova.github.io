@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     return valid;
   }
 
-  function calc() {
+  function calculator() {
     var name = document.getElementById("select");
     var count = document.getElementById("count");
     var result = document.getElementById("result");
