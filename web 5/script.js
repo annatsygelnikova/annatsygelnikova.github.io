@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var sprice = document.getElementById("sprice");
-    stoimost.addEventListener("click", calculator);
+    sprice.addEventListener("click", calculator);
   });
 
   function validate() {
