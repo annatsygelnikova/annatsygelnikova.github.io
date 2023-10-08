@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function validate() {
     var count = document.getElementById("count").value;
-    var o = /-+=^[\d]$/;
+    var o = /^[\d]$/;
     var valid = o.test(count);
 
     if(valid) output = "Данные введены верно";
@@ -25,5 +25,5 @@ document.addEventListener("DOMContentLoaded", function() {
         price = parseInt(count.value) * price;
         result.innerHTML = price;
     }
-    else alert("GG");
+    else alert("Не удалось произвести вычисления!");
   }
