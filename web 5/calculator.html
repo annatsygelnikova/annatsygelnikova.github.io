@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Калькулятор подсчета стоимости заказа магазина одежды</title>
+        <script defer src="script.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <h2>Калькулятор расчета стоимости заказа</h2>
+            <p id = "message">Выберете нужный товар и введите кол-во!</p>
+            <select id="select1">
+                <option value="3699">Брюки классические</option>
+                <option value="1599">Водолазка</option>
+                <option value="3500">Джинсы</option>
+                <option value="6500">Кроссовки</option>
+                <option value="10899">Пальто</option>
+                <option value="5550">Пиджак</option>
+                <option value="4499">Свитер</option>
+                <option value="1999">Юбка прямая</option>
+                <option value="2300">Юбка-солнце</option>
+            </select>
+            <input id = "count" type = "number" placeholder = "Введите количество товара">
+            <button id = "price" onclick = "return calculator();">Рассчитать стоимость товаров</button>
+            <div>
+                Итоговая стоимость заказа = <span id = "result"></span>
+            </div>
+        </main>
+    </body>
+</html>
