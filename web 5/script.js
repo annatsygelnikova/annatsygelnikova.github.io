@@ -17,6 +17,13 @@ function validate() {
   return valid;
 }
 
+function check() {
+let x = document.getElementById("count").value;
+if (x > 0) {
+return true;
+}
+}
+
 function calculator() {
   var name = document.getElementById("select");
   var count = document.getElementById("count");
