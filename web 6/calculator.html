@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    
+    <head>
+        <meta charset = "utf-8">
+		<title>Калькулятор подсчета стоимости заказа магазина корейских товаров</title>
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<link rel = "stylesheet" href = "style.css">
+        <script defer src = "script.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <h2>Корейский магазин</h2>
+            <form>
+                <p id = "message">Выберите нужный товар и введите количество</p>
+
+                <select id="myselect">
+                    <option selected disabled hidden>Выберите нужный тип товара</option>
+                    <option value = "1">Альбом корейской группы</option>
+                    <option value = "2">Бокс с корейской косметикой</option>
+                    <option value = "3">Лимитированная фотокарточка IVE</option>
+                </select>
+
+                <br>
+                <select id="select1">
+                    <option selected disabled hidden>Выбрать</option>
+                    <option value = "2500">B.A.P - First Sensibility</option>
+                    <option value = "2199">B.A.P - Noir</option>
+                    <option value = "2699">BLACKPINK - Born Pink</option>
+                    <option value = "1989">BLACKPINK - Kill This Love</option>
+                    <option value = "2000">BLACKPINK - The Album</option>
+                    <option value = "1750">ITZY - Guess Who</option>
+                    <option value = "1999">ITZY - It'z Me</option>
+                    <option value = "1450">IVE - Eleven</option>
+                    <option value = "2100">IVE - I've IVE</option>
+                    <option value = "1599">IVE - Love Dive</option>
+                    <option value = "2100">Stray Kids - I Am Who</option>
+                    <option value = "1890">Stray Kids - Maxident</option>
+                    <option value = "3100">Stray Kids - Noeasy</option>
+                    <option value = "1550">Stray Kids - Oddinary</option>
+                </select>
+                
+                <input id = "count" type = "number" placeholder="Введите количество товара" onchange="calculator();">
+
+                <div class = "myradios" id = "myradios">Виды доставок:<br>
+                    <label><input type = "radio" name = "myradio" value = "650" onchange = "calculator();">Доставка "Почта Россия" из России</label><br>
+                    <label><input type = "radio" name = "myradio" value = "500" onchange = "calculator();">Доставка "СДЭК" из России</label><br>
+                    <label><input type = "radio" name = "myradio" value = "1300" onchange = "calculator();">Доставка "EMS" из Кореи</label><br>
+                    <label><input type = "radio" name = "myradio" value = "1659" onchange = "calculator();">Доставка "Korea Post" из Кореи</label>
+                </div>
+
+                <div class="checkboxes" id="checkboxes">Выберите дополнительную услугу:
+                    <label><input type = "checkbox" name = "props" value = "60" onchange="calculator();"> Гофрированный картон</label>
+                    <label><input type = "checkbox" name = "props" value = "100" onchange="calculator();"> Пупырчатая пленка</label>
+                  </div>
+                
+                <div>
+                    Итоговая стоимость заказа = <span id = "result"> 0 руб.</span>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
