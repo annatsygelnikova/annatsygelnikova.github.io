@@ -1,11 +1,11 @@
 var cur;
 
 window.addEventListener('DOMContentLoaded', function (event) {
-  let s = document.getElementById("myselect");
+  let с = document.getElementById("myselect");
 
   cur = 0;
 
-  s.addEventListener("change", function(event) {
+  с.addEventListener("change", function(event) {
     let select = event.target;
     let choice = document.getElementById("select1");
     let check = document.getElementById("checkboxes");
