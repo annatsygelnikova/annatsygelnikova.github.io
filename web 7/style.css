@@ -6,16 +6,16 @@
         h1 {
             font-size: 1.7vw;
             text-align: center;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             text-shadow: 2px 2px 5px #392126;
             padding: 8px;
             margin: 8px;
-            background-color: rgb(133, 26, 35);
+            background-color: rgb(255, 240, 245);
             border: 3px solid #240d07;
         }
 
         body {
-            background-color: rgb(242, 223, 231);
+            background-color: rgb(255, 240, 245);
         }
 
         .gallery {
