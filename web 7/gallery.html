@@ -1,32 +1,62 @@
 <!DOCTYPE html>
+ 
 <html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Галерея картинок!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Галерея картинок<3</title>
-    <link rel = "stylesheet" href = "style.css">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="script.js" defer></script>
-</head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+		<link rel="stylesheet" href="style.css">
 
-<body>
-    <h1>Галерея картинок<3</h1>
-    <div class="gallery">
-        <img src="IMG_1796.jpeg" alt="Изображение 1">
-        <img src="IMG_1797.jpeg" alt="Изображение 2">
-        <img src="IMG_1799.jpeg" alt="Изображение 3">
-        <img src="IMG_1798.jpeg" alt="Изображение 4">
-        <img src="IMG_1800.jpeg" alt="Изображение 5">
-        <img src="IMG_1802.jpeg" alt="Изображение 6">
-        <img src="IMG_1801.jpeg" alt="Изображение 7">
-        <img src="IMG_1803.jpeg" alt="Изображение 8">
-    </div>
-    <button id="GoToTheBeginning">Вернуться к 1 картинке</button>
-</body>
+		<script defer src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+		<script defer src="script.js"></script>
+	</head>
 
-</html>
+	<body>
+		<header>
+			<div>
+				<div>
+					<h2>Галерея картинок!</h2>
+				</div>
+			</div>
+		</header>
+	
+		<main>
+			<div class = "slider responsive">
+				<div class="slider__item">
+					<img src="IMG_1796.jpeg">
+				</div>
 
+				<div class="slider__item">
+					<img src ="IMG_1797.jpeg">
+				</div>
+
+				<div class="slider__item">
+					<img src ="IMG_1799.jpeg">
+				</div>
+
+				<div class="slider__item">
+					<img src ="IMG_1798.jpeg">
+				</div>
+
+				<div class="slider__item">
+					<img src ="IMG_1800.jpeg">
+				</div>
+				<div class="slider__item">
+					<img src ="IMG_1802.jpeg">
+				</div>
+
+				<div class="slider__item">
+					<img src ="IMG_1801.jpeg">
+				</div>
+
+				<div class="slider__item">
+					<img src ="IMG_1803.jpeg">
+				</div>
+			</div>
+        </main>
+	</body>
 </html>
