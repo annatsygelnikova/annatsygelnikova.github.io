@@ -5,7 +5,10 @@ const formData = new FormData();
     formData.append("Сообщение: ", "F");
     const jsonString = JSON.stringify(Object.fromEntries(formData));
 
-    $.ajax({
+button.addEventListener("click", () => {
+    form.classList.add("open");
+    popup.classList.add("popup_open");
+     $.ajax({
         url: 'https://api.slapform.com/hkhNWFrrb',
         method: 'POST',
         data: jsonString,
@@ -14,8 +17,4 @@ const formData = new FormData();
             console.log("Ошибка");
         }
     });
-
-button.addEventListener("click", () => {
-    form.classList.add("open");
-    popup.classList.add("popup_open");
 });
