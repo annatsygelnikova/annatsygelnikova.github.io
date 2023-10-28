@@ -5,7 +5,8 @@ const formData = new FormData();
     formData.append("Сообщение: ", $("message").val());
     const jsonString = JSON.stringify(Object.fromEntries(formData));
 
-button.addEventListener("click", () => {
+button.addEventListener("click", (e) => {
+    e.preventDefault();
     form.classList.add("open");
     popup.classList.add("popup_open");
      $.ajax({
