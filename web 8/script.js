@@ -2,7 +2,7 @@ const button = document.querySelector("button");
 const form = document.querySelector("#myForm");
 const popup = document.querySelector(".popup");
 const formData = new FormData();
-    formData.append(formData.append("Сообщение: ", $("messagee").val());
+    formData.append(formData.append("Сообщение: ", $("message").val());
     const jsonString = JSON.stringify(Object.fromEntries(formData));
 
 button.addEventListener("click", () => {
