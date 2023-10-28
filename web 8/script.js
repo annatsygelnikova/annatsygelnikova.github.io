@@ -9,7 +9,7 @@ button.addEventListener("click", () => {
     form.classList.add("open");
     popup.classList.add("popup_open");
      $.ajax({
-        url: 'https://api.slapform.com/AoT1FEm7u',
+        url: 'https://api.slapform.com/AoT1FEm7U',
         method: 'POST',
         data: jsonString,
         dataType: "json",
