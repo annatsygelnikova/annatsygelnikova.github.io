@@ -10,7 +10,7 @@
     </head>
 
     <body>
-        <button>Нажмите на кнопку, чтобы заполнить форму</button>
+        <button id = "but1">Нажмите на кнопку, чтобы заполнить форму</button>
 
         <div class="popup">
             <div class="popup_container">
@@ -21,20 +21,20 @@
                             <label for = "name">Полное ФИО: </label>
                             <input type = "text" id = "fio" name = "full_name" placeholder = "Введите полное Фио" required><br>
                 
-                            <label for = "name">Адрес электронной почты: </label>
+                            <label for = "emaill">Адрес электронной почты: </label>
                             <input type = "email" id = "e_mail" name = "mail" placeholder = "Введите адрес электронной почты" required><br>
                            
-                            <label for = "name">Номер телефона: </label>
+                            <label for = "telephone_number">Номер телефона: </label>
                             <input type = "tel" id="telephone" name = "phone" placeholder = "Введите номер телефона" required><br>
                             
-                            <label for="name">Название организации: </label>
-                            <input type="text" id = "org" name = "organization" placeholder = "Введите название организации, в которой обучаетесь/работаете" required><br>
+                            <label for = "Organ">Название организации: </label>
+                            <input type = "text" id = "org" name = "organization" placeholder = "Введите название организации, в которой обучаетесь/работаете" required><br>
                             
-                            <label for="name">Сообщение: </label>
-                            <textarea id="message" name="messagee" placeholder="Введите сообщение" required></textarea><br>
+                            <label for = "Messages">Сообщение: </label>
+                            <textarea id = "message" name = "messagee" placeholder="Введите сообщение" required></textarea><br>
                             
                             <input type="checkbox" required>Я согласен(-на) с политикой обработки персональных данных.
-                            <br><button type="submit">Отправить</button></br>
+                            <br><input type="submit" id = "but">Отправить</input></br>
                         </form>
 
                     </div>
